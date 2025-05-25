@@ -16,6 +16,7 @@ public class SpringJenkinApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application is up and running...");
+		logger.info("logger is working fine...");
 		SpringApplication.run(SpringJenkinApplication.class, args);
 	}
 
